@@ -10,8 +10,8 @@ function Navbar() {
           alt="logo de un cafe"
           className="h-8 w-8 ml-3"
           loading="lazy"
-          width={50}
-          height={50}
+          width={30}
+          height={30}
         />
       </div>
       <div className="mr-auto">

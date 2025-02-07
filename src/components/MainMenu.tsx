@@ -32,8 +32,8 @@ function MainMenu() {
               alt="logo"
               className="w-1/2 h-1/4 shadow-xl dark:shadow-black rounded-lg mr-10"
               loading="lazy"
-              width={500}
-              height={250}
+              width={250}
+              height={120}
             />
             <section>
               <h2 className="text-white text-2xl font-bold">
@@ -69,8 +69,8 @@ function MainMenu() {
               alt="logo"
               className="w-1/2 h-1/4 shadow-xl dark:shadow-black rounded-lg ml-10"
               loading="lazy"
-              width={500}
-              height={250}
+              width={250}
+              height={120}
             />
           </div>
           <br />
