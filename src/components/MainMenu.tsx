@@ -7,7 +7,7 @@ function MainMenu() {
       <div
         className="absolute h-max w-screen -z-10 bg-cover bg-center bg-grey-800 bg-opacity-30 shadow-2xl mt-20"
         style={{
-          backgroundImage: "url(/assets/fondo-madera.jpg)",
+          backgroundImage: "url(/assets/fondo-madera.webp)",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
@@ -26,9 +26,10 @@ function MainMenu() {
           </div>
           <div className="flex justify-center m-10">
             <img
-              src="/assets/sobres-cafe.png"
+              src="/assets/sobres-cafe.webp"
               alt="logo"
               className="w-1/2 h-1/4 shadow-xl dark:shadow-black rounded-lg mr-10"
+              loading="lazy"
             />
             <section>
               <h2 className="text-white text-2xl font-bold">
@@ -60,9 +61,10 @@ function MainMenu() {
               </p>
             </section>
             <img
-              src="/assets/barriles.jpg"
+              src="/assets/barriles.webp"
               alt="logo"
               className="w-1/2 h-1/4 shadow-xl dark:shadow-black rounded-lg ml-10"
+              loading="lazy"
             />
           </div>
           <br />

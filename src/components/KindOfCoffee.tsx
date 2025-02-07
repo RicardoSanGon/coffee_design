@@ -7,7 +7,7 @@ function KindOfCoffe() {
       <div
         className="absolute h-max w-screen -z-10 bg-cover bg-center bg-grey-800 bg-opacity-30 shadow-2xl pr-60 pl-60 mt-20"
         style={{
-          backgroundImage: "url(/assets/fondo-madera.jpg)",
+          backgroundImage: "url(/assets/fondo-madera.webp)",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
@@ -31,6 +31,7 @@ function KindOfCoffe() {
                   src="/assets/arabica.png"
                   alt="Cafe Arabica"
                   className="h-1/4 w-1/4 rounded-2xl shadow-2xl dark:shadow-black mr-10"
+                  loading="lazy"
                 />
                 <div className="w-max">
                   <h2 className="text-white text-2xl font-bold">
@@ -72,6 +73,7 @@ function KindOfCoffe() {
                   src="/assets/liberica.avif"
                   alt="Cafe Arabica"
                   className="h-1/4 w-1/4 rounded-2xl shadow-2xl dark:shadow-black mr-10"
+                  loading="lazy"
                 />
                 <div className="w-max">
                   <h2 className="text-white text-2xl font-bold">
@@ -97,6 +99,7 @@ function KindOfCoffe() {
                   src="/assets/excelsa.webp"
                   alt="Cafe Arabica"
                   className="h-1/4 w-1/4 rounded-2xl shadow-2xl dark:shadow-black mr-10"
+                  loading="lazy"
                 />
                 <div className="w-max">
                   <h2 className="text-white text-2xl font-bold">

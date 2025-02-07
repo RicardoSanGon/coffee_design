@@ -7,7 +7,7 @@ function Contact() {
       <div
         className="absolute h-full w-screen -z-10 bg-cover bg-center bg-grey-800 bg-opacity-30 shadow-2xl mt-20 pr-50 pl-50"
         style={{
-          backgroundImage: "url(/assets/fondo-madera.jpg)",
+          backgroundImage: "url(/assets/fondo-madera.webp)",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
@@ -29,6 +29,7 @@ function Contact() {
               src="/assets/mapa.jpg"
               alt="mapa"
               className="w-1/2 h-1/4 shadow-xl dark:shadow-black rounded-lg mr-10"
+              loading="lazy"
             />
             <section>
               <h2 className="text-white text-2xl font-bold">Ubicacion</h2>

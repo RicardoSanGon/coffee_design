@@ -7,7 +7,7 @@ function AboutUs() {
       <div
         className="absolute h-max w-screen -z-10 bg-cover bg-center bg-grey-800 bg-opacity-30 shadow-2xl mt-20"
         style={{
-          backgroundImage: "url(/assets/fondo-madera.jpg)",
+          backgroundImage: "url(/assets/fondo-madera.webp)",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
@@ -30,11 +30,13 @@ function AboutUs() {
                 src="/assets/tienda-vieja.jpg"
                 alt="Tienda vieja"
                 className="w-xl h-1/4 shadow-xl dark:shadow-black rounded-lg mr-10 mb-10"
+                loading="lazy"
               />
               <img
                 src="/assets/tienda-cafe-vieja.jpeg"
                 alt="Tienda de cafe vieja"
                 className="w-xl h-1/4 shadow-xl dark:shadow-black rounded-lg mr-10"
+                loading="lazy"
               />
             </div>
             <section>
