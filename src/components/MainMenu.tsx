@@ -13,7 +13,7 @@ function MainMenu() {
         }}
       >
         <div
-          className="h-max w-max bg-black bg-opacity-50 rounded-lg mr-auto ml-auto p-5 mt-10"
+          className="h-[70%] w-[70%] bg-black bg-opacity-50 rounded-lg mr-auto ml-auto p-5 mt-10"
           style={{
             backgroundColor: "#f4af4a",
           }}
