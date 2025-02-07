@@ -26,7 +26,7 @@ function MainMenu() {
           </div>
           <div className="flex justify-center m-10">
             <img
-              src="/assets/sobres-cafe.avifs"
+              src="/assets/sobres-cafe.webp"
               alt="logo"
               className="w-1/2 h-1/4 shadow-xl dark:shadow-black rounded-lg mr-10"
               loading="lazy"
@@ -64,7 +64,7 @@ function MainMenu() {
               </p>
             </section>
             <img
-              src="/assets/barriles.avifs"
+              src="/assets/barriles.webp"
               alt="logo"
               className="w-1/2 h-1/4 shadow-xl dark:shadow-black rounded-lg ml-10"
               loading="lazy"
