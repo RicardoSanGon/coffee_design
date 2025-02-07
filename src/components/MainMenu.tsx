@@ -13,6 +13,7 @@ function MainMenu() {
         }}
       >
         <div
+
           className="h-[70%] w-[70%] bg-black bg-opacity-50 rounded-lg mr-auto ml-auto p-5 mt-10"
           style={{
             backgroundColor: "#f4af4a",
@@ -27,7 +28,7 @@ function MainMenu() {
               organico.
             </p>
           </div>
-          <div className="flex justify-center m-10">
+          <div className="flex justify-center m-10 content-menu ">
             <img
             rel="preload"
               src="/assets/sobres-cafe.webp"
@@ -53,7 +54,7 @@ function MainMenu() {
             </section>
           </div>
           <div
-            className="flex justify-center"
+            className="flex justify-center content-menu "
             style={{ minHeight: "100px", minWidth: "200px" }}
           >
             <section>
