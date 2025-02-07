@@ -14,15 +14,20 @@ function MainMenu() {
       >
         <div
           className="h-fit w-fit bg-black bg-opacity-50 rounded-lg mr-auto ml-auto p-5 mt-10"
-          style={{ backgroundColor: "#f4af4a", minHeight: "200px", minWidth: "300px" }}
+          style={{
+            backgroundColor: "#f4af4a",
+            minHeight: "200px",
+            minWidth: "300px",
+          }}
         >
           <div>
             <h1 className="text-white text-6xl w-full text-center">
               CoffeeStore
             </h1>
-            <h2 className="text-white text-4xl text-center mt-4">
-              Un buen cafe para un buen dia.
-            </h2>
+            <p className="text-white text-center mt-4">
+              Un buen cafe para un buen dia. El mejor cafe en calidad. 100%
+              organico.
+            </p>
           </div>
           <div className="flex justify-center m-10">
             <img
@@ -48,7 +53,10 @@ function MainMenu() {
               </p>
             </section>
           </div>
-          <div className="flex justify-center" style={{ minHeight: "100px", minWidth: "200px" }}>
+          <div
+            className="flex justify-center"
+            style={{ minHeight: "100px", minWidth: "200px" }}
+          >
             <section>
               <h2 className="text-white text-2xl font-bold">
                 Contamos con bastantes postres
