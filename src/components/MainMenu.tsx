@@ -10,13 +10,11 @@ function MainMenu() {
           backgroundImage: "url(/assets/fondo-madera.webp)",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
-          width: "100%",
-          height: "100%",
         }}
       >
         <div
           className="h-fit w-fit bg-black bg-opacity-50 rounded-lg mr-auto ml-auto p-5 mt-10"
-          style={{ backgroundColor: "#f4af4a" }}
+          style={{ backgroundColor: "#f4af4a", minHeight: "200px", minWidth: "300px" }}
         >
           <div>
             <h1 className="text-white text-6xl w-full text-center">
@@ -34,6 +32,7 @@ function MainMenu() {
               loading="lazy"
               width={250}
               height={120}
+              style={{ minHeight: "50px", minWidth: "100px" }}
             />
             <section>
               <h2 className="text-white text-2xl font-bold">
@@ -49,7 +48,7 @@ function MainMenu() {
               </p>
             </section>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center" style={{ minHeight: "100px", minWidth: "200px" }}>
             <section>
               <h2 className="text-white text-2xl font-bold">
                 Contamos con bastantes postres
@@ -71,6 +70,7 @@ function MainMenu() {
               loading="lazy"
               width={250}
               height={120}
+              style={{ minHeight: "50px", minWidth: "100px" }}
             />
           </div>
           <br />
