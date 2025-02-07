@@ -16,8 +16,6 @@ function MainMenu() {
           className="h-fit w-fit bg-black bg-opacity-50 rounded-lg mr-auto ml-auto p-5 mt-10"
           style={{
             backgroundColor: "#f4af4a",
-            height: "200px",
-            width: "300px",
           }}
         >
           <div>
@@ -31,7 +29,7 @@ function MainMenu() {
           </div>
           <div className="flex justify-center m-10">
             <img
-              rel="preload"
+            rel="preload"
               src="/assets/sobres-cafe.webp"
               alt="logo"
               className="w-1/2 h-1/4 shadow-xl dark:shadow-black rounded-lg mr-10"
@@ -73,7 +71,7 @@ function MainMenu() {
               </p>
             </section>
             <img
-              rel="preload"
+            rel="preload"
               src="/assets/barriles.webp"
               alt="logo"
               className="w-1/2 h-1/4 shadow-xl dark:shadow-black rounded-lg ml-10"
